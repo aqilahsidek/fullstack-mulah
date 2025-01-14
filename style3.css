@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f5f5f5;
+}
+
+.logo{
+    margin-top: 50px;
+    width: 150px;
+}
+
+.content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+}
+
+h2 , h4 {
+    text-align: left;  
+    width: 300px;       
+}
+
+h2{
+    font-size: 30px;
+    color: #646464;
+    font-family:  Minion-Pro;
+    line-height: 1.2;
+}
+
+h4{
+    color: #646464;
+    font-family: Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.box{
+    border-radius: 15px;
+    box-shadow: 0 1px 2px;
+    background-color: white;
+    width: 300px;
+    height: auto;
+}
+
+.detail{
+    margin: 30px;
+}
+
+.numb, .nama, .bday, .em{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    margin-top:10px;
+    color: #fe6700;
+    text-decoration: underline;
+}
+
+#phoneDisplay, #nameDisplay, #birthdayDisplay, #emailDisplay{
+    font-family: Helvetica,Arial,sans-serif;
+    margin-top: 10px;
+    height: 30px;
+    color: #656565;
+    border-bottom: 1px solid #ddd9d9;
+}
+
+.line{
+    border-top: 1px solid #b5b5b5;
+    width: 100%; 
+    margin: 30px auto;
+}
+
+.foot{
+    color: #a9a9a9;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.hovers{
+    color: blue;
+}
+
+.hovers:hover{
+    text-decoration: underline;
+}
