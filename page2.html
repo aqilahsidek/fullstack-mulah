@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Registration</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <img class="logo" src="mulah_logo.png">
+
+        <div class="content">
+            <div class="sub">
+            <h1>Registration</h1>
+            <h4>Please fill up your details.</h4>
+            </div>
+        </div>
+
+        <div class="input">
+            <div class="name1">
+                <p>Name</p>
+                <label for="name"></label>
+                <input type="text" class="name" name="names"
+                        placeholder="Enter name" autocomplete="off">
+                <div class="error" id="name-error"></div>
+            </div>
+            <div class="birth">
+                <p>Birthday</p>
+                <label for="birth"></label>
+                <input type="text" class="day" name="day" placeholder="DD"
+                        autocomplete="off" maxlength="2">
+                <input type="text" class="month" name="month" placeholder="MM"
+                        autocomplete="off" maxlength="2">
+                <input type="text" class="year" name="year" placeholder="YYYY"
+                        autocomplete="off" maxlength="4">
+                <div class="error" id="birth-error"></div>
+            </div>
+            <div class="email1">
+                <p>Email</p>
+                <label for="email"></label>
+                <input type="email" class="email" name="email" 
+                       autocomplete="off" placeholder="Enter e-mail address">
+                <div class="error" id="email-error"></div>
+                <div>
+                    <label for="no"></label>
+                    <input type="checkbox" class="no" name="no-email">
+                    <i class="mess">No email address</i>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <button type="button" id="button" class="button">Continue</button>
+        </div>
+    </body>
+    <div class="line"></div>
+    <footer class="foot">
+        Powered by <span class="hovers">MulahRewards.com</span>
+    </footer>
+
+    <script src="script2.js"></script>
+
+</html>
